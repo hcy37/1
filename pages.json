@@ -1,0 +1,50 @@
+{
+	"pages": [
+		
+	
+        {
+            "path" : "pages/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/trophy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "奖项",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		        "path" : "pages/guide",
+		        "style" :                                                                                    
+		        {
+		            "navigationBarTitleText": "",
+		            "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+		        }
+		        
+		 }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#edc951",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#edc951"
+		}
+	}
+	// "tabBar":{
+	// 	"list":[
+	// 		{"pagePath":"pages/home","iconPath":"static/icons/pfly.png","text":"自我介绍","selectedIconPath":"static/icons/pfly.png"},
+	// 		{"pagePath":"pages/trophy","iconPath":"static/icons/trophy.png","text":"奖项","selectedIconPath":"static/icons/trophy.png"}
+	// 	]
+	// }
+}
